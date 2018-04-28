@@ -142,3 +142,4 @@ var Stats = function () {
   };
   
   
+  module.exports = Stats;

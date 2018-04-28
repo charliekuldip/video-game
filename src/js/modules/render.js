@@ -2,7 +2,7 @@
 // canvas rendering helpers
 //=========================================================================
 import { SPRITES, COLORS } from './constants';
-import { Util } from './util';
+import Util from './util';
 
 var Render = {
 
@@ -122,3 +122,4 @@ var Render = {
   
   };
   
+  module.exports = Render;

@@ -1,8 +1,7 @@
 //=============================================================================
 // RACING GAME CONSTANTS
 //=============================================================================
-
-var KEY = {
+export const KEY = {
     LEFT:  37,
     UP:    38,
     RIGHT: 39,
@@ -13,7 +12,7 @@ var KEY = {
     W:     87
   };
   
-  var COLORS = {
+export const COLORS = {
     SKY:  '#72D7EE',
     TREE: '#005108',
     FOG:  '#005108',
@@ -23,13 +22,13 @@ var KEY = {
     FINISH: { road: 'black',   grass: 'black',   rumble: 'black'                     }
   };
   
-  var BACKGROUND = {
+export const BACKGROUND = {
     HILLS: { x:   5, y:   5, w: 1280, h: 480 },
     SKY:   { x:   5, y: 495, w: 1280, h: 480 },
     TREES: { x:   5, y: 985, w: 1280, h: 480 }
   };
   
-  var SPRITES = {
+export const SPRITES = {
     PALM_TREE:              { x:    5, y:    5, w:  215, h:  540 },
     BILLBOARD08:            { x:  230, y:    5, w:  385, h:  265 },
     TREE1:                  { x:  625, y:    5, w:  360, h:  360 },

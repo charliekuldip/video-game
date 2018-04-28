@@ -29,3 +29,5 @@ var Dom = {
     storage: window.localStorage || {}
   
   };
+
+  module.exports = Dom;

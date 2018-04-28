@@ -2,10 +2,12 @@
 // GAME LOOP helpers
 //=========================================================================
 import Dom from './dom';
-import {Util} from './util';
-import {Stats} from './stats';
+import Util from './util';
+import Stats from './stats';
 
-var Game = {  // a modified version of the game loop from my previous boulderdash game - see http://codeincomplete.com/posts/2011/10/25/javascript_boulderdash/#gameloop
+console.log('THis is Stats!:', Stats);
+
+export var Game = {  // a modified version of the game loop from my previous boulderdash game - see http://codeincomplete.com/posts/2011/10/25/javascript_boulderdash/#gameloop
 
     run: function(options) {
   
@@ -85,7 +87,7 @@ var Game = {  // a modified version of the game loop from my previous boulderdas
     //---------------------------------------------------------------------------
   
     stats: function(parentId, id) { // construct mr.doobs FPS counter - along with friendly good/bad/ok message box
-  
+      console.log('Stats from game.js: ', Stats);
       var result = new Stats();
       result.domElement.id = id || 'stats';
       Dom.get(parentId).appendChild(result.domElement);
