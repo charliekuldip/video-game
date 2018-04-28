@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "amd": true,
+    "jquery": true
+  },
+  "globals": {
+    "__webpack_public_path__": true,
+    "module": true,
+    "window": true
+  },
+  "parserOptions": {
+        "sourceType": "module"
+    },
+  "extends": "eslint:recommended",
+  "rules": {
+    "curly": "error",
+    "eqeqeq": ["warn", "smart"],
+    "indent": ["warn", "tab"],
+    "no-console": "off",
+    "no-invalid-this": "warn",
+    "no-unused-vars": "warn",
+    "quotes": ["warn", "single"],
+    "semi": ["error", "always"],
+    "strict": ["error", "safe"]
+  }
+}

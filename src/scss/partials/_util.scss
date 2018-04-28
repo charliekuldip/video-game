@@ -1,0 +1,41 @@
+.orange {
+    color: orange;
+}
+
+.grey {
+    color: grey;
+}
+
+.white {
+    color: white;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.desk-only {
+    @media(max-width: 1023px) {
+        display: none;
+    }
+}
+
+.b-container {
+    width: 270/320 * 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
